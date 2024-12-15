@@ -1,0 +1,20 @@
+body { display: none; }
+#skill-check {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 30px;
+    background-color: #333;
+}
+#bar {
+    width: 0;
+    height: 100%;
+    background-color: green;
+}
+#skill-button {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+}
